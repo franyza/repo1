@@ -1,0 +1,15 @@
+{
+  "name": "franyza/repo1",
+  "description": "Repo 1",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=5.5.0",
+    "franyza/repo2": "^1.0"
+  },
+  
+  "autoload": {
+        "psr-4": {
+            "Franyza\\Repo1\\": ""
+        }
+    }
+}
